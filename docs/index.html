@@ -3,7 +3,95 @@ layout: default
 title: Home
 ---
 
-# Hello from Jekyll!
-This page is generated automatically by **Jekyll**.\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta Quang Minh | Home</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      gap: 40px;
+    }
+    .left, .right {
+      flex: 1;
+      min-width: 280px;
+    }
+    .left {
+      border-right: 2px solid #ddd;
+      padding-right: 30px;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .info {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .emoji {
+      font-size: 1.2em;
+    }
+    .random-symbol {
+      font-family: monospace;
+      font-size: 1.4em;
+      color: #999;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Ta Quang Minh</h1>
+      <div class="info">Université Paris 13 – USPN</div>
+      <div class="info"><span class="emoji">📍</span> Paris, France</div>
+      <div class="info"><strong>LinkedIn:</strong> <a href="#">placeholder</a></div>
+      <div class="info"><strong>Google Scholar:</strong> <a href="#">placeholder</a></div>
+    </div>
 
-how this theme will look like ahaa
+    <div class="right">
+      <p>
+        I am a first-year student at Sorbonne Paris Nord University advised by
+        Professor Étienne André and Laure Petrucci.
+      </p>
+      <p>
+        Currently, I am working on lightweight verification techniques for cyber-physical systems.
+        In the past, I have worked on problems mostly in graph theory, recommendation systems, 
+        and other machine learning tasks.
+      </p>
+      <p>
+        Some of my interests include hiking 🥾, cooking 🍳, calisthenics 💪, and
+        cultural/geography games (I love Timeguessr 🌍).
+      </p>
+      <p>
+        I also like to think of 🌙✨ manifesting as part of my identity.
+      </p>
+      <div class="random-symbol">
+        ~*•°¤(*☯‿☯*)¤°•*~
+      </div>
+    </div>
+  </div>
+</body>
+</html>
