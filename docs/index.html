@@ -6,6 +6,45 @@ title: Home
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Top navigation bar -->
+<div class="topbar">
+  <strong>Ta Quang Minh</strong>
+  <span class="spacer"></span>
+  <a href="#">Talk</a>
+  <span class="sep">·</span>
+  <a href="#">Writing</a>
+  <span class="sep">·</span>
+  <a href="#">CV</a>
+</div>
+
+<style>
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    position: sticky;
+    top: 0;
+  }
+  .topbar a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  .topbar a:hover {
+    text-decoration: underline;
+  }
+  .spacer {
+    flex-grow: 1;
+  }
+  .sep {
+    color: #999;
+  }
+</style>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ta Quang Minh | Home</title>
@@ -69,6 +108,7 @@ title: Home
       <div class="info"><span class="emoji">📍</span> Paris, France</div>
       <div class="info"><strong>LinkedIn:</strong> <a href="#">placeholder</a></div>
       <div class="info"><strong>Google Scholar:</strong> <a href="#">placeholder</a></div>
+        <div class="info"><strong>Research interest:</strong> <a Dont know/a></div>
     </div>
 
     <div class="right">
